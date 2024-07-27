@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* =============================== background=====================================*/
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/yyy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    padding: 8%;
+    z-index: 3;
+
+
+}
+.hero2{
+    z-index: 2;
+  
+}
+h1,
+h3 {
+    font-weight: bold;
+    stroke: 10px solid white;
+}
+
+/* ===============================nav=====================================*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+}
+
+.logo {
+    color: rgb(17, 16, 16);
+    font-size: 28px;
+    margin: 0%;
+    padding-right: 0%;
+    font-weight: bold;
+    
+    padding-left: 0%;
+}
+
+span {
+    color: rgb(251, 4, 25);
+}
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+   
+}
+
+nav ul li a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: .3s;
+}
+
+.van {
+    text-align: center;
+    padding: 400px 0;
+    color: rgb(6, 6, 6);
+    font-weight: 700;
+    z-index: 3;
+
+}
+
+
+.btn-outline-secondary,
+.btn-primary {
+    margin: 10px 40px;
+
+
+}
+
+.row {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+/* =============================== section2=====================================*/
+
+.section2 {
+    padding: 0%;
+}
+
+.can {
+    color: green;
+    font-weight: bold;
+    margin-left: 0%;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.run {
+
+    margin-left: 6%;
+    margin-top: 0%;
+}
+
+.man {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+
+}
+
+.card-model {
+    background-color: rgb(60, 163, 247);
+    width: 95%;
+    height: 35vh;
+    border-radius: 0 100px 0 100px;
+    padding-top: 10px;
+
+
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+
+
+}
+
+.card-model a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.card-model a:hover {
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+nav {
+    display: flex;
+}
+
+.warpper {
+
+    position: relative;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto;
+    padding-top: 25px;
+
+}
+
+.con-div {
+    width: 28vmin;
+    height: 28vmin;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #18f98f;
+
+}
+
+i {
+    color: #18f98f;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+span.num {
+    color: white;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+span.text {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.to-box-div {
+    padding-top: 15%;
+}
+.social-icon i{
+    color: red;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+.social-icon a i:hover{
+    color: white;
+    transition: .3s;
+}
